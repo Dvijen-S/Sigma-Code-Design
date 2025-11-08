@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sigma Code — Minimal. Modern. Creative. </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="respo.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="logo-container">
+      <div class="logo"><img src="img/logo.png" alt="Sigma Code Logo"></div>
+      <span class="logo-text">SIGMA CODE</span>
+    </div>
+
+    <div class="nav-center" id="navCenter">
+      <div class="nav-circle">
+        <a href="#" class="active">Home</a>
+        <a href="#services">Services</a>
+        <a href="#work">Projects</a>
+        <a href="#faq">Faq</a>
+      </div>
+    </div>
+
+    <a href="#footer">
+      <button class="nav-btn">Contact</button>
+    </a>
+
+    <!-- Hamburger Menu - New Element -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu - New Element -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-nav">
+      <a href="#" class="active">Home</a>
+      <a href="#services">Services</a>
+      <a href="#work">Projects</a>
+      <a href="#faq">Faq</a>
+      <button class="mobile-btn">Contact</button>
+    </div>
+  </div>
+
+  <section class="hero">
+    <!-- Wide Tagline -->
+    <h1>
+      We craft design, tech, and<br>ideas into standout brands.
+    </h1>
+
+    <!-- Content -->
+    <div class="hero-content">
+      <p>
+        At Sigma Code, we transform your ideas into seamless, high-impact digital experiences —
+        crafted to look stunning, perform flawlessly, and drive real growth for your business.
+      </p>
+      <a href="#work">
+        <button class="cta-btn">Our Projects</button>
+      </a>
+    </div>
+  </section>
+
+
+
+
+  <!-- Cards Carousel (Fixed Bottom-Right) -->
+  <div class="cards-carousel">
+    <div class="cards-track">
+
+      <div class="card">
+        <div class="card-thumb">
+          <lottie-player src="lottie/Web developer.json" background="transparent" speed="1" loop
+            autoplay></lottie-player>
+        </div>
+        <div class="card-title">Website Development</div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb">
+          <lottie-player src="lottie/Creative 3D Visual Animation - Website Development.json" background="transparent"
+            speed="1" loop autoplay></lottie-player>
+        </div>
+        <div class="card-title">UI/UX Design</div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb">
+          <lottie-player src="lottie/Google Advertisement.json" style="scale: .7;" background="transparent" speed="1"
+            loop autoplay></lottie-player>
+        </div>
+        <div class="card-title">Digital Marketing</div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb">
+          <lottie-player src="lottie/Graphic Design process.json" background="transparent" speed="1" loop
+            autoplay></lottie-player>
+        </div>
+        <div class="card-title">Graphic Design</div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb">
+          <lottie-player src="lottie/online shopping delivery.json" background="transparent" speed="1" loop
+            autoplay></lottie-player>
+        </div>
+        <div class="card-title">E-Commerce Website</div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb">
+          <lottie-player src="lottie/design thinking.json" background="transparent" speed="1" loop
+            autoplay></lottie-player>
+        </div>
+        <div class="card-title">Creative Design Studio</div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb">
+          <lottie-player src="lottie/Social media marketing.json" background="transparent" speed="1" loop
+            autoplay></lottie-player>
+        </div>
+        <div class="card-title">Social Post & Reel Design</div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb">
+          <lottie-player src="lottie/360 VTS Logo.json" background="transparent" speed="1" loop
+            autoplay></lottie-player>
+        </div>
+        <div class="card-title">3D Visual</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Lottie Script -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+
+
+
+  <!-- ==== OUR WORK ==== -->
+  <section class="our-work">
+    <h2 class="section-title" id="work">Our Projects</h2>
+
+    <div class="work-grid">
+      <!-- Work Item 1 -->
+      <div class="work-card">
+        <div class="work-img">
+          <img src="img/work1.webp" alt="E-commerce Website" class="static-img">
+          <img src="img/hover1.webp" alt="E-commerce Website Hover" class="hover-img">
+        </div>
+        <div class="work-info">
+          <span class="work-tag">E-commerce Website</span>
+          <h3 class="work-title">Toolssparrow</h3>
+          <p class="work-desc">A seamless shopping experience with modern UI and lightning-fast performance.</p>
+        </div>
+      </div>
+
+      <!-- Work Item 2 -->
+      <div class="work-card">
+        <div class="work-img">
+          <img src="img/work2.webp" alt="Portfolio Showcase" class="static-img">
+          <img src="img/hover2.webp" alt="Portfolio Showcase Hover" class="hover-img">
+        </div>
+        <div class="work-info">
+          <span class="work-tag">Business</span>
+          <h3 class="work-title">The Tea Wagon</h3>
+          <p class="work-desc">Minimalist personal portfolio highlighting creativity and strong visual identity.</p>
+        </div>
+      </div>
+
+      <!-- Work Item 3 -->
+      <div class="work-card">
+        <div class="work-img">
+          <img src="img/work3.webp" alt="Business Website" class="static-img">
+          <img src="img/hover3.webp" alt="Business Website Hover" class="hover-img">
+        </div>
+        <div class="work-info">
+          <span class="work-tag">Web Design</span>
+          <h3 class="work-title">Tandooriyat</h3>
+          <p class="work-desc">Professional corporate site with tailored branding and smooth animations.</p>
+        </div>
+      </div>
+
+      <!-- Work Item 4 -->
+      <div class="work-card">
+        <div class="work-img">
+          <img src="img/work4.webp" alt="Educational Platform" class="static-img">
+          <img src="img/hover4.webp" alt="Educational Platform Hover" class="hover-img">
+        </div>
+        <div class="work-info">
+          <span class="work-tag">UI/UX Design</span>
+          <h3 class="work-title">Vasu Sculpture</h3>
+          <p class="work-desc">Interactive and scalable education portal built for engagement and clarity.</p>
+        </div>
+      </div>
+
+
+
+      <!-- Work Item 5 -->
+      <div class="work-card">
+        <div class="work-img">
+          <img src="img/work5.webp" alt="Landing Page" class="static-img">
+          <img src="img/hover5.webp" alt="Landing Page hover" class="hover-img">
+        </div>
+        <div class="work-info">
+          <span class="work-tag">Education</span>
+          <h3 class="work-title">HappyTots Preschool</h3>
+          <p class="work-desc">High-converting landing page with modern UI and engaging interactions.</p>
+        </div>
+      </div>
+
+      <!-- Work Item 6 -->
+      <div class="work-card">
+        <div class="work-img">
+          <img src="img/work6.webp" alt="Informational Website" class="static-img">
+          <img src="img/hover6.webp" alt="Informational Website hover" class="hover-img">
+        </div>
+        <div class="work-info">
+          <span class="work-tag">Informational</span>
+          <h3 class="work-title">Vedhaan</h3>
+          <p class="work-desc">Clean and professional informational website optimized for clarity and impact.</p>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+
+
+
+
+  <!-- Work Detail Popup -->
+  <div class="work-popup-overlay" id="workPopupOverlay">
+    <div class="work-popup" id="workPopup">
+      <div class="popup-header">
+        <div class="popup-title-section">
+          <h2 id="popupWorkTitle">Project Title</h2>
+          <span class="popup-tag" id="popupWorkTag">Tag</span>
+        </div>
+        <button class="popup-close" id="popupClose">×</button>
+      </div>
+      <div class="popup-content">
+        <div class="popup-images" id="popupImages">
+          <!-- Images will be added dynamically -->
+        </div>
+
+        <div class="popup-details">
+          <h3 class="details-title">Project Details</h3>
+          <p class="details-description" id="popupDescription">
+            Project description will appear here.
+          </p>
+
+          <div class="project-cta">
+            <span class="project-badge">Ready for Your Project</span>
+            <h3>Let’s build something great.</h3>
+            <button class="cta-button">
+              <img src="img/connect.svg" alt="">
+              Let's Connect
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const workCards = document.querySelectorAll('.work-card');
+      const popupOverlay = document.getElementById('workPopupOverlay');
+      const popup = document.getElementById('workPopup');
+      const popupClose = document.getElementById('popupClose');
+      const popupTitle = document.getElementById('popupWorkTitle');
+      const popupTag = document.getElementById('popupWorkTag');
+      const popupDescription = document.getElementById('popupDescription');
+      const popupImages = document.getElementById('popupImages');
+      const ctaButton = document.querySelector('.cta-button');
+
+      // Work data
+      const workData = {
+        'Toolssparrow': {
+          tag: 'E-commerce Website',
+          description: `Toolssparrow is a full-fledged e-commerce platform crafted for seamless shopping. It combines service and product purchasing under one roof with an intuitive design, secure checkout, and dynamic interface built for modern users.`,
+          images: ['img/work1.webp', 'img/hover1.webp', 'img/pop1.webp', 'img/pop2.webp']
+        },
+        'The Tea Wagon': {
+          tag: 'Commercial / Product Showcase',
+          description: `The Tea Wagon is an elegant, product-focused landing page designed to highlight premium tea masalas. It blends modern animations, storytelling visuals, and a minimal aesthetic to create an immersive brand experience.`,
+          images: ['img/work2.webp', 'img/hover2.webp', 'img/pop3.webp', 'img/pop4.webp']
+        },
+        'Tandooriyat': {
+          tag: 'Restaurant Website',
+          description: `Tandooriyat is a clean and minimal restaurant website designed to showcase its menu, ambiance, and unique culinary story. It maintains simplicity while offering a warm, modern look that aligns with the brand’s identity.`,
+          images: ['img/work3.webp', 'img/hover3.webp', 'img/pop5.webp', 'img/pop6.webp']
+        },
+        'Vasu Sculpture': {
+          tag: '3D Landing Page / Global Export',
+          description: `Vasu Sculpture is a visually rich landing page created for a global sculpture export business. With 3D-inspired visuals and subtle creative animations, it beautifully showcases art pieces while maintaining a luxurious and professional tone.`,
+          images: ['img/work4.webp', 'img/hover4.webp', 'img/pop7.webp', 'img/pop8.webp']
+        },
+        'HappyTots Preschool': {
+          tag: 'Education / Preschool Website',
+          description: `HappyTots is a lively, creative preschool website designed to engage both parents and children. It presents all preschool details, USPs, and facilities through playful animations, pastel tones, and a delightful storytelling flow.`,
+          images: ['img/work5.webp', 'img/hover5.webp', 'img/pop9.webp', 'img/pop10.webp']
+        },
+        'Vedhaan': {
+          tag: 'Portfolio / Service-Based Website',
+          description: `Vedhaan is a sleek and modern service-based portfolio website. With a black minimal theme, dynamic animations, and a polished layout, it communicates professionalism while showcasing services in a visually engaging way.`,
+          images: ['img/work6.webp', 'img/hover6.webp', 'img/pop11.webp', 'img/pop12.webp']
+        }
+      };
+
+      // Add click event to work cards
+      workCards.forEach(card => {
+        card.addEventListener('click', function () {
+          const workTitle = this.querySelector('.work-title').textContent;
+          openWorkPopup(workTitle);
+        });
+      });
+
+      // Open popup function
+      function openWorkPopup(title) {
+        const data = workData[title];
+        if (!data) return;
+
+        popupTitle.textContent = title;
+        popupTag.textContent = data.tag;
+        popupDescription.textContent = data.description;
+
+        popupImages.innerHTML = '';
+        data.images.forEach(imgSrc => {
+          const imageDiv = document.createElement('div');
+          imageDiv.className = 'popup-image';
+          imageDiv.innerHTML = `<img src="${imgSrc}" alt="${title}">`;
+          popupImages.appendChild(imageDiv);
+        });
+
+        popupOverlay.classList.add('active');
+        setTimeout(() => popup.classList.add('active'), 10);
+
+        document.body.style.overflow = 'hidden';
+      }
+
+      // ✅ WhatsApp redirect on CTA button click
+      ctaButton.addEventListener('click', function () {
+        window.open('https://wa.me/919023992728?text=Hello%20Sigma%20Code!%20I%20would%20like%20to%20discuss%20a%20project.', '_blank');
+      });
+
+      // Close popup function
+      function closeWorkPopup() {
+        popup.classList.remove('active');
+        setTimeout(() => {
+          popupOverlay.classList.remove('active');
+          document.body.style.overflow = '';
+        }, 500);
+      }
+
+      popupClose.addEventListener('click', closeWorkPopup);
+      popupOverlay.addEventListener('click', function (e) {
+        if (e.target === popupOverlay) closeWorkPopup();
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && popupOverlay.classList.contains('active')) {
+          closeWorkPopup();
+        }
+      });
+    });
+  </script>
+
+
+
+
+  <!-- ==== SERVICES (ZIG-ZAG PREMIUM) ==== -->
+  <section class="services-zigzag" id="services">
+    <h2 class="section-title">Our Services</h2>
+
+    <!-- Website Development -->
+    <article class="svc-row">
+      <div class="svc-content">
+        <h3 class="svc-title">Web Development</h3>
+        <p class="svc-desc">
+          We create websites that combine aesthetics with performance. Whether it’s a sleek landing page, a
+          full-scale web app, or a custom e-commerce store, our development process focuses on seamless
+          experiences, responsive design, and future-ready scalability. Every line of code is crafted to deliver
+          speed, stability, and elegance.
+        </p>
+      </div>
+      <figure class="svc-visual">
+        <img src="img/service1.png" alt="Website Development" class="svc-img">
+      </figure>
+    </article>
+
+    <!-- Digital Marketing -->
+    <article class="svc-row reverse">
+      <div class="svc-content">
+        <h3 class="svc-title">Digital Marketing</h3>
+        <p class="svc-desc">
+          Marketing isn’t just about visibility — it’s about impact. We design campaigns that resonate with
+          audiences through social media storytelling, creative content, SEO, and targeted ads. Blending strategy
+          with creativity, we ensure your brand doesn’t just reach people, but leaves a lasting impression.
+        </p>
+      </div>
+      <figure class="svc-visual">
+        <img src="img/service4.png" alt="Digital Marketing" class="svc-img">
+      </figure>
+    </article>
+
+    <!-- Branding & Creative -->
+    <article class="svc-row">
+      <div class="svc-content">
+        <h3 class="svc-title">Branding & Creative</h3>
+        <p class="svc-desc">
+          A brand is more than a logo — it’s a voice, a feeling, a presence. We craft timeless brand identities
+          through thoughtful design, bold visuals, and motion storytelling. From guidelines to creative campaigns,
+          our work transforms businesses into unforgettable brands.
+        </p>
+      </div>
+      <figure class="svc-visual">
+        <img src="img/service3.png" alt="Branding & Creative" class="svc-img">
+      </figure>
+    </article>
+  </section>
+
+
+
+
+
+
+  <section class="faq-section" id="faq">
+    <!-- Left Side Title -->
+    <h2 class="faq-title">Frequently Asked<br>Questions</h2>
+
+    <!-- Right Side Accordion -->
+    <div class="faq-container">
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>How do I get started with Sigma Code?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer">
+          <p>You can reach us directly via Instagram, phone, or email. Once you connect, we’ll discuss your project,
+            share an estimate, and get started after a quick confirmation.</p>
+        </div>
+      </div>
+
+
+      <!-- FAQ Item 2 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>What's the typical timeline for projects?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer">
+          <p>Timelines depend on scope. Small projects can take a few days, while larger ones may need several weeks.
+            Once we know your needs, we’ll share a clear timeline and stick to it.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 3 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>How is pricing determined for projects?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer">
+          <p>Pricing depends on your requirements. After reviewing your project, we’ll share a transparent quote with no
+            hidden costs. Everything is discussed upfront.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 4 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Can you improve my existing website or application?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer">
+          <p>Yes. We can redesign, fix, or enhance your current product. From fresh visuals to performance upgrades, we
+            make sure your site or app works and looks better.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 5 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>What if I need changes after project completion?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer">
+          <p>We offer support even after completion. Small tweaks are often free, while major updates or new features
+            may cost extra. We always share details first so there are no surprises.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="footer-container">
+
+      <!-- Left -->
+      <div class="footer-left">
+        <div class="footer-logo">
+          <img src="img/logo.png" alt="Sigma Logo" class="footer-logo-img">
+          <span class="footer-logo-name">Sigma Code</span>
+        </div>
+        <p class="footer-tagline">Minimal. Modern. Meaningful</p>
+      </div>
+
+      <!-- Right -->
+      <div class="footer-right">
+        <div class="footer-box">
+          <h3 class="footer-title">Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-box">
+          <h3 class="footer-title">Contact</h3>
+          <div class="footer-contact">
+            <div class="contact-item">
+              <label>Email</label>
+              <p>
+                <a href="mailto:sigmacode.design@gmail.com">
+                  sigmacode.design@gmail.com
+                </a>
+              </p>
+            </div>
+            <div class="contact-item">
+              <label>Phone</label>
+              <p>
+                <a href="tel:+919023992728">+91 90239 92728</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Row -->
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 Sigma Code. All Rights Reserved.</p>
+
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/sigmacode.design" target="_blank" aria-label="Instagram">
+          <i class="ri-instagram-line"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sigma-code-636328381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank" aria-label="LinkedIn">
+          <i class="ri-linkedin-line"></i>
+        </a>
+        <a href="https://www.facebook.com/share/17hNyApxbT/" target="_blank" aria-label="Facebook">
+          <i class="ri-facebook-line"></i>
+        </a>
+        <a href="https://wa.me/919023992728" target="_blank" aria-label="WhatsApp">
+          <i class="ri-whatsapp-line"></i>
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
